@@ -1,0 +1,45 @@
+#######################
+# Some configurations need a restart
+# See https://ktor.io/docs/configurations.html#command-line for https interface options
+#######################
+#
+######
+# Minecraft networking
+######
+# Socket address to bind, default port is 25565
+bind-addresses:
+- 127.0.0.1:25569
+# Proxy used to connect to backend servers
+# Example: socks5://localhost:9050, socks4://localhost:9050, http://foo:bar@localhost:9080
+backend-proxy: ''
+# Zlib Compression level
+compression-level: 6
+#
+######
+# VIAaaS virtual hosts options
+######
+# Requires virtual host to contain the value from "host-name" as a suffix.
+# A false value will allow virtual hosts with no suffix, connecting to the hostname sent by client.
+# A false value could be used for transparent proxying or for MiTM.
+require-host-name: true
+# Host names of this instance. Will be used as a suffix.
+host-name:
+- viaeagx
+default-backend-port: 25565
+default-parameters: {}
+block-local-address: true
+blocked-back-addresses: []
+allowed-back-addresses:
+- '*'
+show-version-ping: true
+show-brand-info: true
+rate-limit-ws: 1.40239846e-45f
+rate-limit-connection-mc: 1.40239846e-45f
+rate-limit-login-mc: 1.40239846e-45f
+listening-ws-limit: 100
+favicon-url: https://raw.githubusercontent.com/ViaVersion/VIAaaS/396dcb40249ed0ef292e223c32e7f130699e7153/src/main/resources/web/logo.png
+force-online-mode: false
+max-players: 100
+protocol-detector-cache: 30
+jwt-secret: LJvmc3Kyaiofa2AbLR20lbdk8aTv0a68QbhDhS9HJMnnRizx3rilZV+nraQKJsWw4UY76h5RlgtWBCfpeJjuRQ==
+backend-address: ''

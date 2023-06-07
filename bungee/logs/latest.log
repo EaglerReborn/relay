@@ -1,0 +1,12 @@
+[15:52:47] [main/INFO]: Using mbed TLS based native cipher.
+[15:52:47] [main/INFO]: Using zlib based native compressor.
+[15:52:47] [main/INFO]: Enabled Waterfall version git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:326b71b:527
+[15:52:47] [main/INFO]: Not on Windows, attempting to use enhanced EpollEventLoop
+[15:52:47] [main/INFO]: Epoll is working, utilising it!
+[15:52:48] [main/INFO]: Loaded plugin EaglercraftXBungee version 1.0.5 by lax1dude
+[15:52:49] [main/ERROR] [EaglercraftXBungee]: Online mode is set to false! Authentication system has been disabled
+[15:52:49] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: Eaglercraft is listening on: /127.0.0.1:8081
+[15:52:50] [main/INFO] [EaglercraftXBungee]: Connected to database: jdbc:sqlite:eaglercraft_skins_cache.db
+[15:52:50] [main/INFO]: Enabled plugin EaglercraftXBungee version 1.0.5 by lax1dude
+[15:52:50] [Netty Boss IO Thread #0/INFO]: Listening on /127.0.0.1:25577
+[15:53:57] [Netty Worker IO Thread #1/WARN] [EaglercraftXBungee]: Server icon is not a file: /home/runner/reborn-relay/bungee/server-icon.png

@@ -1,0 +1,17 @@
+{
+  "short_name": "VIAaaS",
+  "name": "VIAaaS - ViaVersion as a Service",
+  "icons": [{
+    "src": "./img/maskable_icon.webp",
+    "sizes": "857x857",
+    "type": "image/png",
+    "purpose": "any maskable"
+  }],
+  "start_url": "./",
+  "background_color": "#3367D6",
+  "display": "standalone",
+  "theme_color": "#0468a1",
+  "shortcuts": [],
+  "description": "VIAaaS - Standalone ViaVersion Proxy",
+  "screenshots": []
+}
