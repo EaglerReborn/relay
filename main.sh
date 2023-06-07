@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # smashed together by ayunami2000
-
+# otterdev was here
 unset DISPLAY
 
 chmod +x caddy
