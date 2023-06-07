@@ -9,7 +9,7 @@ listener_01:
   forward_ip_header: X-Forwarded-For
   server_icon: server-icon.png
   server_motd:
-  - 'sorry query isnt supported yet'
+  - 'sorry query isnt supported yet for java'
   allow_motd: true
   allow_query: true
   request_motd_cache:
