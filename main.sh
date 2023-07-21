@@ -2,6 +2,11 @@
 
 # smashed together by ayunami2000
 # otterdev was here
+
+# force updates to any new commits
+
+git remote update
+
 unset DISPLAY
 
 chmod +x caddy
