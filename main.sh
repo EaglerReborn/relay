@@ -35,7 +35,7 @@ fi
 
 rm latest_version
 
-wget -O latest_version "https://gitlab.com/lax1dude/eaglercraftx-1.8/-/raw/main/gateway_version"
+wget -O latest_version "https://github.com/EaglerReborn/EaglerReborn/raw/main/gateway_version"
 
 if [ -f latest_version ]; then
   if ! cmp -s "latest_version" "current_version"; then
