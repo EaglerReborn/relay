@@ -3,8 +3,7 @@
 # smashed together by ayunami2000
 # otterdev was here
 
-# force updates to any new commits
-
+# update the repo
 git remote update
 
 unset DISPLAY
@@ -35,14 +34,14 @@ fi
 
 rm latest_version
 
-wget -O latest_version "https://gitlab.com/lax1dude/eaglercraftx-1.8/-/raw/main/gateway_version"
+wget -O latest_version "https://github.com/EaglerReborn/reborn/raw/main/gateway_version"
 
 if [ -f latest_version ]; then
   if ! cmp -s "latest_version" "current_version"; then
     rm current_version
     cp latest_version current_version
     rm /tmp/EaglercraftXBungee.jar
-    wget -O /tmp/EaglercraftXBungee.jar "https://gitlab.com/lax1dude/eaglercraftx-1.8/-/raw/main/gateway/EaglercraftXBungee/EaglerXBungee-Latest.jar"
+    wget -O /tmp/EaglercraftXBungee.jar "https://github.com/EaglerReborn/reborn/raw/main/gateway/EaglercraftXBungee/EaglerXBungee-Latest.jar"
     if [ -f /tmp/EaglercraftXBungee.jar ]; then
       rm bungee/plugins/EaglercraftXBungee.jar
       mv /tmp/EaglercraftXBungee.jar bungee/plugins/EaglercraftXBungee.jar
