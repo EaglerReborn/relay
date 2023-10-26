@@ -24,6 +24,8 @@ mkdir -p viaaas
 
 rm -rf viaaas/logs
 rm -rf waterfall/logs
+ln -s /dev/null viaaas/logs
+ln -s /dev/null waterfall/logs
 rm bungee/modules/*
 
 if [ ! -f current_version ]; then
